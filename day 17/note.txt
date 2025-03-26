@@ -1,0 +1,60 @@
+-> four pillars of opps
+    1.Encapsulation
+    2.inheritance
+    3.Abstraction
+    4.Polymorphism
+
+    classes & objects
+    *****************
+-> objects - real world entities
+-> classes - group of these entities/blueprint
+  
+    access modifiers
+    ****************
+-> private - data and methods accessible inside class
+-> public - data and methods accessible to everyone
+-> protected - data and methods accessible inside class and to its derived class
+
+    Encapsulation
+    *************
+-> Encapsulation is wrapping of data & member function(methods) in a single unit.
+->  It alsoo implements data hiding.
+
+    constructer
+    ***********
+-> special method invoked automatically at time of object creation. Used for initialisation.
+.> same name as class
+.> Constructor doesn't have a return type
+.> Only called once (automatically),at object creation
+.> Memory allocation happens when constructor is called
+
+-> "this" is a special pinter in c++ that points to the current object.
+-> "this->prop" is same as "*(this).prop"
+
+
+constructor overloading
+***********************
+->3 types:
+    1.Non-Parameterized constructor
+    2.Parameterized constructor
+    3.copy constructer
+        :-special constructor (default) used to copy properties of one object into another.
+
+
+Shallow & Deep copy
+*******************
+-> shalow copy copies references to original array.But array remains same.
+-> Deep copy created a brand new copy of the array.
+
+-> compiler generally creates a shallow copy for array.
+
+-> we need to define own copy constructor when deep copy is needed i.e.when class contains pointers to dynamically allocated memory.
+
+
+destructor
+**********
+
+
+inheritance
+***********
+-> when properties & member functiona of base/parent/super class are passed on to the derived class

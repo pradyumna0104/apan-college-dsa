@@ -1,0 +1,34 @@
+// pointer and address
+
+1. all memory location are based on hexadecimal no. sytsem
+
+
+            address of operater
+            --------------------
+            
+ -> '&' given the adress of the variable
+
+                       a
+                   --------
+                   |      |
+                   |      |
+                   --------
+                    0x7960
+
+ -> '&a' is equal to 7920
+
+
+
+
+                pointer's
+              -------------
+
+-> pointer is a special variable that stores address of another variable..
+
+//code
+Q.explain the type a and b
+  float* a,b;
+
+ans.
+   here a = float pointer
+   and  b = float  

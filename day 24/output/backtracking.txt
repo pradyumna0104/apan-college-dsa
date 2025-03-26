@@ -1,0 +1,6 @@
+                    BackTracking
+                    ------------
+-> 3 types of BackTracking
+1. Decision : (yes/no)
+2. Optimization(Best/case)
+3. Enumeration (count total no. of possible way)

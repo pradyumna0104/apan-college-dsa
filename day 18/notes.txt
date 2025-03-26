@@ -1,0 +1,29 @@
+polymorphism
+*************
+polymorphism is the ability of objects to take on different forms or bahave in different ways depending on the context in which they are used.
+
+> complie time polymorphism
+ 
+> run time polymorphism
+
+
+> compile time polymorphism
+***************************
+ ~ function overloading
+ ~ operator overloading
+
+ > run time polymorphism
+ ***********************
+  ~ function overriding
+  ~ virtual functions
+      :- A virtual function is a member function that you except to be redefined in derived classes. 
+      :- virtual functions are dynamic in nature.
+      :- defined by the keyword "virtual" inside a base class and are always declared with a base class and overridden in a child class.
+      :- A virtual function is called during runtime.
+
+
+
+Abstraction
+***********
+> Hiding all unnecessary details & showing only the important parts.
+> abstract class : contain atleast pure virtual functions
